@@ -1,7 +1,7 @@
 # Modern Website - Template
 
 ### Example pages
-- [Prewiev](https://luna-devv.github.io/Modern-Website/)
+- [Preview](https://luna-devv.github.io/Modern-Website/)
 - [xyna.space/@Luna](https://xyna.space/@Luna)
 
 ### Help
