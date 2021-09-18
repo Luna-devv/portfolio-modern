@@ -1,28 +1,13 @@
-# Website Template
+# Modern Website - Template
 
-## Examples
-- [xyna.space](https://l.xyna.space)
-- [archolek.xyz](https://www.archolek.xyz/)
-- [tayronm.xyz](https://tayronm.xyz)
-- [tac-fm.ml](https://tac-fm.ml)
-- [infoblock.gq](https://infoblock.gq)
-- [Template Website](https://luna-devv.github.io/Website-Template/)
+### Example pages
+- [Prewiev](https://luna-devv.github.io/Modern-Website/)
+- [xyna.space/@Luna](https://xyna.space/@Luna)
 
-## Install
-1. Download the latest release from [here](https://github.com/Luna-devv/Website-Template).
-2. Unzip the Downloaded File.
+### Help
+1. Join our support server here: [xyna.space/support](https://xyna.space/support).
+2. Ping Luni#8888 and ask your question.
 
-## Change things
-1. All things to be changed are specified in the index.html and on the Website (double click index.html)!
-
-## Help
-1. Text me on discord [Luni#8888](https://discord.com/users/821472922140803112).
-2. Wait.
-3. Get an answer.
-
-## Hey.. its made by us
-- please mention on your website that it was created by me (us)! ty
-
-## Made by
-[Flamex](https://github.com/Flamexdev) - Original but complicated template! <br>
-[Luna](https://github.com/Luna-devv) - Simplified template!<br>
+### Support us
+- If you want you can buy me a coffee here: [buymeacoffee.com/Lunisiaa](https://buymeacoffee.com/Lunisiaa).
+- Please Mention that this Website Template was created be me. **This is a must do**
