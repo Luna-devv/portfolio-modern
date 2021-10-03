@@ -1,0 +1,63 @@
+/* General */
+header span:hover, .card:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+header span {
+    transition: background-color 75ms ease-in-out;
+    transition: box-shadow 75ms ease-in-out;
+}
+
+.list {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, 380px);
+    grid-gap: 50px;
+    justify-content: center;
+    margin-top: 180px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.card {
+    background-color: #242430;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    place-content: space-around;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.card:hover {
+    transform: rotate(2deg);
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.card-img {
+    border-radius: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-left: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.card-desc {
+    --tw-text-opacity: 1;
+    color: rgba(156, 163, 175, var(--tw-text-opacity));
+    margin-top: 0.5rem;
+    padding-top: 0.67rem;
+}
+
+.card-url {
+    --tw-text-opacity: 1;
+    color: rgba(147, 197, 253, var(--tw-text-opacity));
+    margin-top: 0.5rem;
+}

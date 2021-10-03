@@ -1,0 +1,90 @@
+/* General */
+.page {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-color: #17181f;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.top-padding {
+    padding-top: 7rem;
+}
+
+.spicutes {
+    border-radius: 0.6rem;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26rem;
+}
+
+.pfp {
+    cursor: default;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+
+
+
+/* Responisve */
+.pfp-flex {
+    display: flex;
+}
+
+@media only screen and (max-width: 750px) {
+    .top-padding {
+        padding-top: 1rem;
+    }
+
+    .text-margin {
+        margin: 1rem;
+    }
+
+    .pfp-flex {
+        display: unset;
+    }
+
+    .pfp {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .list {
+        grid-gap: 30px;
+        margin-top: 20px;
+    }
+
+    div {
+        overflow-x: hidden;
+    }
+}
+
+
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #242430;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #30303f;
+}
+
+
+
+/* footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
