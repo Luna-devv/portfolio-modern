@@ -88,3 +88,17 @@ html {
 body {
     margin: 0 0 100px;
 }
+
+#bottom-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.center-footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: #a8a8b8;
+}
