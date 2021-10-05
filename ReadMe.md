@@ -9,5 +9,4 @@
 2. Ping Luni#8888 and ask your question.
 
 ### Support us
-- If you want you can buy me a coffee here: [buymeacoffee.com/Lunisiaa](https://buymeacoffee.com/Lunisiaa).
 - Please Mention that this Website Template was created be me. **This is a must do**
