@@ -1,8 +1,18 @@
+/*
+    Note: This code is under the GNU General Public License v3.0
+    Check our this link for more Informations: https://github.com/Luna-devv/Modern-Website/blob/main/LICENSE.
+    ©️ Luna 2021
+*/
+
+
 /* Text styling */
+.top-padding {
+    padding-top: 7rem;
+}
+
 .text-margin {
     margin-left: 10%;
 }
-
 
 .name {
     color: #fff;
@@ -29,6 +39,17 @@
     color: #a8a8b8
 }
 
+bold {
+    font-weight: 600;
+}
+
+white {
+    color: rgb(207, 207, 207);
+    font-weight: 600;
+}
+
+
+/* Links */
 .aho {
     transition-duration: 300ms;
 }
@@ -46,26 +67,28 @@
     color: #9D174D;
 }
 
-bold {
-    font-weight: 600;
-}
-
-white {
-    color: rgb(207, 207, 207);
-    font-weight: 600;
-}
-
-
 
 /* fonts */
-.font-Indie_Flower {
-    font-family: 'Indie Flower', cursive;
-}
-
 .font-Roboto {
     font-family: 'Roboto', sans-serif;
 }
 
-.font-Open_Sans {
-    font-family: 'Open Sans', sans-serif;
+.font-Lato {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Responisve */
+@media only screen and (max-width: 1034px) {
+    .top-padding {
+        padding-top: 1rem!important;
+    }
+
+    .text-margin {
+        margin: 1rem;
+    }
+
+    div {
+        overflow-x: hidden;
+    }
 }

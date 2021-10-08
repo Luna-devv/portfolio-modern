@@ -1,5 +1,13 @@
+/*
+    Note: This code is under the GNU General Public License v3.0
+    Check our this link for more Informations: https://github.com/Luna-devv/Modern-Website/blob/main/LICENSE.
+    ©️ Luna 2021
+*/
+
+
 /* General */
 .page {
+    background-color: #17181F;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -8,11 +16,8 @@
     user-select: none;
 }
 
-.top-padding {
-    padding-top: 7rem;
-}
-
 .spicutes {
+    margin-bottom: 2rem;
     border-radius: 0.6rem;
     overflow: hidden;
     margin-left: auto;
@@ -28,21 +33,12 @@
 }
 
 
-
-/* Responisve */
+/* PFP-Responisve */
 .pfp-flex {
     display: flex;
 }
 
-@media only screen and (max-width: 750px) {
-    .top-padding {
-        padding-top: 1rem;
-    }
-
-    .text-margin {
-        margin: 1rem;
-    }
-
+@media only screen and (max-width: 873px) {
     .pfp-flex {
         display: unset;
     }
@@ -51,17 +47,7 @@
         padding: 1rem;
         width: 100%;
     }
-
-    .list {
-        grid-gap: 30px;
-        margin-top: 20px;
-    }
-
-    div {
-        overflow-x: hidden;
-    }
 }
-
 
 
 /* Scroll bar */

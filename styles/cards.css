@@ -1,4 +1,12 @@
-/* General */
+/*
+    Note: This code is under the GNU General Public License v3.0
+    Check our this link for more Informations: https://github.com/Luna-devv/Modern-Website/blob/main/LICENSE.
+    ©️ Luna 2021
+*/
+
+
+
+/* Card */
 header span:hover, .card:hover {
     cursor: pointer;
     transition-duration: 0.2s;
@@ -15,22 +23,59 @@ header span {
     grid-template-columns: repeat(auto-fit, 380px);
     grid-gap: 50px;
     justify-content: center;
-    margin-top: 180px;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    margin-top: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .card {
+    border-radius: 0.6rem!important;
     background-color: #242430;
     transform: rotate(0deg);
     transition: transform 0.2s ease-in-out;
-    border-radius: 0.5rem;
     padding: 1.25rem;
     place-content: space-around;
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+
+/* Responisve */
+@media only screen and (max-width: 768px) {
+    .list {
+        grid-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .card {
+        margin-right: 4px!important;
+        margin-left: 4px!important;
+    }
+
+    .discordWidget {
+        width: calc(100% - .59rem) !important;
+    }
+
+    .list {
+        grid-gap: 14px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .card {
+        --scale: calc(100% - 6%);
+        -webkit-transform:scale(var(--scale));
+        -moz-transform:scale(var(--scale));
+        -ms-transform:scale(var(--scale));
+        transform:scale(var(--scale));
+    }
+
+    .list {
+        grid-gap: 10px;
+    }
+}
+
+
+/* Card content */
 .card:hover {
     transform: rotate(2deg);
     --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
