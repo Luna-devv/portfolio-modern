@@ -32,6 +32,12 @@
     overflow: hidden;
 }
 
+hr.coloured {
+    height: 3px;
+    border: none;
+    border-radius: 6px;
+    background: #30303f;
+}
 
 /* PFP-Responisve */
 .pfp-flex {
