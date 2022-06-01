@@ -2,6 +2,7 @@
 
 ### Example pages
 - [Preview](https://luna-devv.github.io/Modern-Website/)
+- [InfoBlock](https://github.com/InfoBlock/Website/)
 
 ### Help
 - Please read our [LICENSE](https://github.com/Luna-devv/Modern-Website/blob/main/LICENSE) before you start editing! <br />
