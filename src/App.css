@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.top-padding {
+    padding-top: 7rem;
+}
+
+.text-margin {
+    margin-left: 10%;
+}
+
+.name {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.hight-light-text-gry {
+    background-color: #242430;
+    padding: 1px;
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+    border-radius: 4px;
+}
+
+.main-text {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.sub-text {
+    font-size: 20px;
+    color: #a8a8b8
+}
+
+bold {
+    font-weight: 600;
+}
+
+white {
+    color: rgb(207, 207, 207);
+    font-weight: 600;
+}
+
+
+/* Links */
+.aho {
+    transition-duration: 300ms;
+}
+
+.aho:hover {
+    color: #9D174D;
+}
+
+.saho {
+    color: #ffb5bd;
+    transition-duration: 300ms;
+}
+
+.saho:hover {
+    color: #9D174D;
+}
+
+
+/* fonts */
+.font-Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-Lato {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Responisve */
+@media only screen and (max-width: 1034px) {
+    .top-padding {
+        padding-top: 1rem!important;
+    }
+
+    .text-margin {
+        margin: 1rem;
+    }
+
+    div {
+        overflow-x: hidden;
+    }
+}
+
+header span:hover, .card:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+header span {
+    transition: background-color 75ms ease-in-out;
+    transition: box-shadow 75ms ease-in-out;
+}
+
+.list {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, 380px);
+    grid-gap: 50px;
+    justify-content: center;
+    margin-top: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card {
+    border-radius: 0.6rem!important;
+    background-color: #242430;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in-out;
+    padding: 1.25rem;
+    place-content: space-around;
+}
+
+
+/* Responisve */
+@media only screen and (max-width: 768px) {
+    .list {
+        grid-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .card {
+        margin-right: 4px!important;
+        margin-left: 4px!important;
+    }
+
+    .discordWidget {
+        width: calc(100% - .59rem) !important;
+    }
+
+    .list {
+        grid-gap: 14px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .card {
+        --scale: calc(100% - 6%);
+        -webkit-transform:scale(var(--scale));
+        -moz-transform:scale(var(--scale));
+        -ms-transform:scale(var(--scale));
+        transform:scale(var(--scale));
+    }
+
+    .list {
+        grid-gap: 10px;
+    }
+}
+
+
+/* Card content */
+.card:hover {
+    transform: rotate(2deg);
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.card-img {
+    border-radius: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-left: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.card-desc {
+    --tw-text-opacity: 1;
+    color: rgba(156, 163, 175, var(--tw-text-opacity));
+    margin-top: 0.5rem;
+    padding-top: 0.67rem;
+}
+
+.card-url {
+    --tw-text-opacity: 1;
+    color: rgba(147, 197, 253, var(--tw-text-opacity));
+    margin-top: 0.5rem;
+}
+.page {
+    background-color: #17181F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.spicutes {
+    margin-bottom: 2rem;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26rem;
+}
+
+.pfp {
+    cursor: default;
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+
+
+/* PFP-Responisve */
+.pfp-flex {
+    display: flex;
+}
+
+@media only screen and (max-width: 873px) {
+    .pfp-flex {
+        display: unset;
+    }
+
+    .pfp {
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+
+/* Scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #242430;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #30303f;
+}
+
+
+
+/* footer */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
+#bottom-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.center-footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: #a8a8b8;
+}
