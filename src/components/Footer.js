@@ -4,7 +4,6 @@ export default function Footer() {
     return(
         <footer id='bottom-footer'>
             <div className='center-footer'>©️ Template made by <a className='saho' href='https://lunish.nl/luna'>Luna</a>
-
             </div>
         </footer>
     )
