@@ -1,4 +1,5 @@
-# Modern Website - Template
+# Modern Website - Template React version
+
 
 ### Example pages
 - [Preview](https://luna-devv.github.io/Modern-Website/)
